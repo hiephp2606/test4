@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: auto;
+}
+body {
+  background-color: lightgrey;
+}
+.sbox {
+  background-color: white;
+  margin-top: 25px;
+  margin-left: 300px;
+  height: 35px;
+  width: 300px;
+  border-radius: 50px;
+  box-shadow: 5px 10px #888888;
+}
+.container {
+  display: flex;
+  background-color: lightgrey;
+  height: 1000px;
+  width: 1050px;
+  margin-left: 300px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+.c1,
+.c2,
+.c3,
+.c4,
+.c5,
+.c6 {
+  background-color: white;
+  height: 350px;
+  width: 332px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 5px 10px #888888;
+  display: block;
+}
+.gp {
+  height: 220px;
+  border-radius: 10px;
+}
+.name {
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 80px;
+  font-size: x-large;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.price {
+  margin-bottom: 5px;
+  margin-left: 10px;
+  width: 50px;
+  width: 200px;
+  color: orange;
+  font-size: large;
+}
+.price,
+i,
+.add {
+  display: inline;
+}
+.add {
+  float: inline-end;
+  margin-right: 10px;
+  cursor: pointer;
+  color: blue;
+}
+i {
+  float: inline-end;
+  margin-right: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+#sb {
+  color: grey;
+  float: inline-start;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.sb1 {
+  height: 33px;
+  width: 300px;
+  border-radius: 50px;
+  border: none;
+}
